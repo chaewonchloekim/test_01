@@ -1,14 +1,14 @@
 import random
 
 
-def baseball(array):
+def baseball(array01):
 
-	array=[];
+	array01=[];
 
 	for i in range(1,10):
-		array.append(i)
+		array01.append(i)
 
-	random.shuffle(array)
+	random.shuffle(array01)
 
 	print"=====start!====="
 	b=[0,0,0]
@@ -28,7 +28,7 @@ def baseball(array):
 		strike=0;
 		for n in range(3):
 			for m in range(3):
-				if array[n] == b[m]:
+				if array01[n] == b[m]:
 					if n==m:
 						strike = strike + 1
 					else :
